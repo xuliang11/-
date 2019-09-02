@@ -1,0 +1,50 @@
+/* pages/wallter/index.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+background-color: #f2f2f2;
+}
+.overage{
+  padding: 40rpx;
+  background-color: #ffff;
+text-align: center;
+}
+.overage overage-header{
+  font-size: 28rpx;
+}
+.overage .overage-content{
+  display: block;
+  font-size:100rpx;
+  font-weight:700;
+  padding: 30rpx; 
+  margin: 30rpx;
+}
+.overage .overage-desc{
+  border:  1px solid #b9dd08;
+  border-radius: 25rpx;
+  padding:  10rpx 20rpx;
+  font-size: 35rpx;
+}
+.btn-charge{
+  width: 90%;
+  margin-top: 40rpx;
+  background-color: #b9dd08;
+  border-radius: 15rpx;
+}
+.tapbar{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 40rpx;
+  background-color: #ffff;
+  margin-top: 40rpx;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.coloer{
+  color: #b9dd08;
+  margin-right: 10rpx;
+}
+.my-deposi{
+  margin-top: 20rpx;
+  
+}

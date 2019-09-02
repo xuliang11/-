@@ -1,0 +1,16 @@
+<!--pages/bilibili/index.wxml-->
+<view class="container">
+<view class="number">
+<text>当前单车编号:8888</text>
+</view>
+<view class="time">
+<view class="time-title"  >
+{{actionText}}
+ </view>
+ <view class="endride">
+ {{house}}：{{minutes}}：{{secounds}}
+ <button type="warn" bindtap="endride" disabled="{{clickBtn}}">结束骑行</button>
+ <button type="primary" bindtap="moveindex">回到地图</button>
+ </view>
+ </view>
+</view>
